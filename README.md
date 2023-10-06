@@ -12,10 +12,10 @@ g++ main.cpp "AES/aes128.cpp" "File Control/fileControl.cpp" "File Search\fileSe
 ```
 
 ### How to use the tool?
-**The tool performs encryption and decryption operations in the "FET" folder in the same directory.**
-**The tool encrypts all data within the "FET" folder.**
-**The length of the key must be 16 characters.**
-**If you add -x, it will perform operations in the extensions you specify.**
+**The tool performs encryption and decryption operations in the "FET" folder in the same directory.**<br />
+**The tool encrypts all data within the "FET" folder.**<br />
+**The length of the key must be 16 characters.**<br />
+**If you add -x, it will perform operations in the extensions you specify.**<br />
 *Encryption:*
 ```cmd
 FileEncryptionTool.exe -e -k ENTERTHEKEY
